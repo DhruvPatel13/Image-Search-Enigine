@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Engine</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="dark.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="theme">
+            <button id="darkBtn" onclick="themeHandler()"><i class="fa-solid fa-moon"></i> Dark Theme</button>
+            <button id="lightBtn" onclick="themeHandler()"><i class="fa-regular fa-moon"></i> Light Theme</button>
+        </div>
+        <section class="image-generator">
+
+            <div class="content">
+                <h1>Image Search Engine</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus assumenda animi consequatur ullam
+                    molestiae repudiandae. </p>
+                <form class="form">
+                    <input type="text" class="prompt-input" placeholder="Describe What You Want To See..." required
+                        id="input">
+                    <div class="controls">
+                        <select class="img-quantity">
+                            <option value="1" selected>1 Image</option>
+                            <option value="2">2 Image</option>
+                            <option value="3">3 Image</option>
+                            <option value="4">4 Image</option>
+                            <option value="8">8 Image</option>
+                        </select>
+                        <button type="submit" class="generate-btn">Generate</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- section 2 -->
+        <section class="image-gallery"></section>
+        <div class="for-more">
+            <button id="show-more-btn">Show More</button>
+        </div>
+    </main>
+
+</body>
+<script src="app.js" defer></script>
+<script src="https://kit.fontawesome.com/a451aeccd8.js" crossorigin="anonymous"></script>
+
+</html>

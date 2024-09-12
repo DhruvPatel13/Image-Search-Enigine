@@ -1,0 +1,51 @@
+.dark {
+  background-color: #14181d;
+  color: white;
+  transition: background-color 1.5s ease;
+  main {
+    transition: background-image 0s ease;
+    background: url(./images/bannerDark.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  main::before {
+    background: linear-gradient(to bottom, #14181d 70%, #013d0b);
+  }
+  .form {
+    background-color: #14181d;
+    color: white;
+  }
+  .generate-btn {
+    background-color: #1bdb3b94;
+    color: white;
+  }
+  .generate-btn:hover {
+    background-color: #1bdb3a;
+  }
+  #show-more-btn {
+    border-color: #1bdb3a;
+    color: #1bdb3a;
+  }
+  #show-more-btn:hover {
+    background-color: hsl(130, 78%, 48%);
+    color: hsl(254, 79%, 8%);
+  }
+  .generate-btn:active,
+  #show-more-btn:active {
+    background-color: #14181d;
+    border: 2px solid #1bdb3a;
+    color: #1bdb3a;
+    font-weight: 600;
+  }
+  .img-quantity {
+    background-color: #14181d;
+    color: white;
+  }
+  #input {
+    color: white;
+  }
+  .img-card {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+}

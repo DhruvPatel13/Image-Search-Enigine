@@ -1,0 +1,59 @@
+@media (max-width: 900px) {
+  i {
+    font-size: 14px;
+  }
+  #lightBtn,
+  #darkBtn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+  .content {
+    max-width: 550px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .form {
+    margin: 40px 0 15px;
+    position: relative;
+  }
+}
+@media (max-width: 550px) {
+  .image-generator {
+    height: 40vh;
+  }
+  .controls {
+    height: 35px;
+    position: absolute;
+    top: 3.8rem;
+  }
+  main::before {
+    height: 100%;
+  }
+  main {
+    height: 30vh;
+  }
+  .form {
+    height: 40px;
+    margin: 20px auto 15px;
+    width: 90%;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 0.8rem;
+    visibility: hidden;
+  }
+  i {
+    font-size: 12px;
+  }
+  #lightBtn,
+  #darkBtn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
